@@ -32,6 +32,7 @@
             this.PokazKlientowButton = new System.Windows.Forms.Button();
             this.PokazAutaButton = new System.Windows.Forms.Button();
             this.PokazCzesciButton = new System.Windows.Forms.Button();
+            this.PokazMagazynyButton = new System.Windows.Forms.Button();
             this.PokazMechanikowButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -75,6 +76,16 @@
             this.PokazCzesciButton.UseVisualStyleBackColor = true;
             this.PokazCzesciButton.Click += new System.EventHandler(this.PokazCzesciButton_Click);
             // 
+            // PokazMagazynyButton
+            // 
+            this.PokazMagazynyButton.Location = new System.Drawing.Point(142, 104);
+            this.PokazMagazynyButton.Name = "PokazMagazynyButton";
+            this.PokazMagazynyButton.Size = new System.Drawing.Size(124, 40);
+            this.PokazMagazynyButton.TabIndex = 4;
+            this.PokazMagazynyButton.Text = "Pokaż magazyny";
+            this.PokazMagazynyButton.UseVisualStyleBackColor = true;
+            this.PokazMagazynyButton.Click += new System.EventHandler(this.PokazMagazynyButton_Click);
+            // 
             // PokazMechanikowButton
             // 
             this.PokazMechanikowButton.Location = new System.Drawing.Point(142, 12);
@@ -91,6 +102,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 156);
             this.Controls.Add(this.PokazMechanikowButton);
+            this.Controls.Add(this.PokazMagazynyButton);
             this.Controls.Add(this.PokazCzesciButton);
             this.Controls.Add(this.PokazAutaButton);
             this.Controls.Add(this.PokazKlientowButton);
@@ -107,6 +119,7 @@
         private System.Windows.Forms.Button PokazKlientowButton;
         private System.Windows.Forms.Button PokazAutaButton;
         private System.Windows.Forms.Button PokazCzesciButton;
+        private System.Windows.Forms.Button PokazMagazynyButton;
         private System.Windows.Forms.Button PokazMechanikowButton;
     }
 }

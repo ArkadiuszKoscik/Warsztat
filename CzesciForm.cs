@@ -192,7 +192,10 @@ namespace bazadanych
             {
                 idCzesci = -1;
             }
-
+            CzesciDoMagazynuForm czesciDoMagazynuOkno = new CzesciDoMagazynuForm(idCzesci, -1);
+            czesciDoMagazynuOkno.ShowDialog();
+            controller = new MagazynyController();
+            odzwiezReszte();
         }
 
         private void EdytujCzęśćButton_Click(object sender, EventArgs e)
@@ -236,6 +239,10 @@ namespace bazadanych
                 MessageBox.Show("Nie zaznaczono żadnego magazynu", "Nie można edytować ilosci czesci", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            CzesciDoMagazynuForm oknoEdycji = new CzesciDoMagazynuForm(idCzesci, idMagazynu);
+            oknoEdycji.ShowDialog();
+            controller = new MagazynyController();
+            odzwiezReszte();
         }
 
         private void UsunZMagazynuButton_Click(object sender, EventArgs e)
