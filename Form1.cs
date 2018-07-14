@@ -20,12 +20,14 @@ namespace bazadanych
 
         private void PokazZleceniabutton_Click(object sender, EventArgs e)
         {
-
+            ZleceniaForm zleceniaOkno = new ZleceniaForm();
+            zleceniaOkno.Show();
         }
 
         private void PokazKlientowButton_Click(object sender, EventArgs e)
         {
-
+            KlienciForm klienciOkno = new KlienciForm();
+            klienciOkno.Show();
         }
 
         private void PokazAutaButton_Click(object sender, EventArgs e)
@@ -45,7 +47,8 @@ namespace bazadanych
 
         private void PokazMechanikowButton_Click(object sender, EventArgs e)
         {
-
+            MechanicyForm mechanicyOkno = new MechanicyForm();
+            mechanicyOkno.Show();
         }
 
     }
