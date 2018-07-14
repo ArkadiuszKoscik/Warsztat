@@ -63,6 +63,18 @@
     <Compile Include="Controller\BaseController.cs" />
     <Compile Include="Controller\MagazynyController.cs" />
     <Compile Include="Controller\ZleceniaController.cs" />
+    <Compile Include="CzesciDoZleceniaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CzesciDoZleceniaForm.Designer.cs">
+      <DependentUpon>CzesciDoZleceniaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CzesciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CzesciForm.Designer.cs">
+      <DependentUpon>CzesciForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +115,12 @@
     <Compile Include="Model\PotrzebnaCzesc.cs" />
     <Compile Include="Model\WarsztatContext.cs" />
     <Compile Include="Model\Zlecenia.cs" />
+    <Compile Include="NowaCzescForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NowaCzescForm.Designer.cs">
+      <DependentUpon>NowaCzescForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="NoweZlecenieForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +156,12 @@
     <EmbeddedResource Include="AutaForm.resx">
       <DependentUpon>AutaForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CzesciDoZleceniaForm.resx">
+      <DependentUpon>CzesciDoZleceniaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CzesciForm.resx">
+      <DependentUpon>CzesciForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806111331193_InitialMigration.resx">
       <DependentUpon>201806111331193_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NowaCzescForm.resx">
+      <DependentUpon>NowaCzescForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NoweZlecenieForm.resx">
       <DependentUpon>NoweZlecenieForm.cs</DependentUpon>

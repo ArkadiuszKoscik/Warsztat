@@ -167,7 +167,10 @@ namespace bazadanych
                 MessageBox.Show("Nie zaznaczono żadnego zlecenia", "Nie można dodać części", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
+            CzesciDoZleceniaForm czesciDoZleceniaOkno = new CzesciDoZleceniaForm(idZlecenia);
+            czesciDoZleceniaOkno.ShowDialog();
+            controller = new ZleceniaController();
+            odswiezCzesci();
         }
 
         private void UsunCzesciButton_Click(object sender, EventArgs e)
@@ -232,6 +235,10 @@ namespace bazadanych
                 MessageBox.Show("Nie zaznaczono żadnej czesci", "Nie można edytować czesci", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            CzesciDoZleceniaForm oknoEdycji = new CzesciDoZleceniaForm(idZlecenia, idCzesci);
+            oknoEdycji.ShowDialog();
+            controller = new ZleceniaController();
+            odswiezCzesci();
         }
     }
 }

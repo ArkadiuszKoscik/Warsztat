@@ -38,7 +38,8 @@ namespace bazadanych
 
         private void PokazCzesciButton_Click(object sender, EventArgs e)
         {
-
+            CzesciForm czesciOkno = new CzesciForm();
+            czesciOkno.Show();
         }
 
         private void PokazMagazynyButton_Click(object sender, EventArgs e)
