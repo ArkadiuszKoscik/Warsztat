@@ -44,6 +44,8 @@ namespace bazadanych
 
         private void PokazMagazynyButton_Click(object sender, EventArgs e)
         {
+            MagazynyForm magazynyOkno = new MagazynyForm();
+            magazynyOkno.Show();
         }
 
         private void PokazMechanikowButton_Click(object sender, EventArgs e)

@@ -63,6 +63,12 @@
     <Compile Include="Controller\BaseController.cs" />
     <Compile Include="Controller\MagazynyController.cs" />
     <Compile Include="Controller\ZleceniaController.cs" />
+    <Compile Include="CzesciDoMagazynuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CzesciDoMagazynuForm.Designer.cs">
+      <DependentUpon>CzesciDoMagazynuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CzesciDoZleceniaForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,12 @@
     </Compile>
     <Compile Include="KlienciForm.Designer.cs">
       <DependentUpon>KlienciForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MagazynyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MagazynyForm.Designer.cs">
+      <DependentUpon>MagazynyForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MechanicyForm.cs">
       <SubType>Form</SubType>
@@ -139,6 +151,12 @@
     <Compile Include="NowyKlientForm.Designer.cs">
       <DependentUpon>NowyKlientForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="NowyMagazynForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NowyMagazynForm.Designer.cs">
+      <DependentUpon>NowyMagazynForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="NowyMechanikForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +174,9 @@
     <EmbeddedResource Include="AutaForm.resx">
       <DependentUpon>AutaForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CzesciDoMagazynuForm.resx">
+      <DependentUpon>CzesciDoMagazynuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CzesciDoZleceniaForm.resx">
       <DependentUpon>CzesciDoZleceniaForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KlienciForm.resx">
       <DependentUpon>KlienciForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MagazynyForm.resx">
+      <DependentUpon>MagazynyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MechanicyForm.resx">
       <DependentUpon>MechanicyForm.cs</DependentUpon>
@@ -185,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NowyKlientForm.resx">
       <DependentUpon>NowyKlientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NowyMagazynForm.resx">
+      <DependentUpon>NowyMagazynForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NowyMechanikForm.resx">
       <DependentUpon>NowyMechanikForm.cs</DependentUpon>
