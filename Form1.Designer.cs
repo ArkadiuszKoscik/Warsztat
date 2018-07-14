@@ -28,8 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.PokazZleceniabutton = new System.Windows.Forms.Button();
+            this.PokazKlientowButton = new System.Windows.Forms.Button();
             this.PokazAutaButton = new System.Windows.Forms.Button();
+            this.PokazMechanikowButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // PokazZleceniabutton
+            // 
+            this.PokazZleceniabutton.Location = new System.Drawing.Point(12, 12);
+            this.PokazZleceniabutton.Name = "PokazZleceniabutton";
+            this.PokazZleceniabutton.Size = new System.Drawing.Size(124, 40);
+            this.PokazZleceniabutton.TabIndex = 0;
+            this.PokazZleceniabutton.Text = "Pokaż zlecenia";
+            this.PokazZleceniabutton.UseVisualStyleBackColor = true;
+            this.PokazZleceniabutton.Click += new System.EventHandler(this.PokazZleceniabutton_Click);
+            // 
+            // PokazKlientowButton
+            // 
+            this.PokazKlientowButton.Location = new System.Drawing.Point(12, 58);
+            this.PokazKlientowButton.Name = "PokazKlientowButton";
+            this.PokazKlientowButton.Size = new System.Drawing.Size(124, 40);
+            this.PokazKlientowButton.TabIndex = 1;
+            this.PokazKlientowButton.Text = "Pokaż klientów";
+            this.PokazKlientowButton.UseVisualStyleBackColor = true;
+            this.PokazKlientowButton.Click += new System.EventHandler(this.PokazKlientowButton_Click);
             // 
             // PokazAutaButton
             // 
@@ -41,12 +64,25 @@
             this.PokazAutaButton.UseVisualStyleBackColor = true;
             this.PokazAutaButton.Click += new System.EventHandler(this.PokazAutaButton_Click);
             // 
+            // PokazMechanikowButton
+            // 
+            this.PokazMechanikowButton.Location = new System.Drawing.Point(142, 12);
+            this.PokazMechanikowButton.Name = "PokazMechanikowButton";
+            this.PokazMechanikowButton.Size = new System.Drawing.Size(124, 40);
+            this.PokazMechanikowButton.TabIndex = 6;
+            this.PokazMechanikowButton.Text = "Pokaż mechaników";
+            this.PokazMechanikowButton.UseVisualStyleBackColor = true;
+            this.PokazMechanikowButton.Click += new System.EventHandler(this.PokazMechanikowButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 156);
+            this.Controls.Add(this.PokazMechanikowButton);
             this.Controls.Add(this.PokazAutaButton);
+            this.Controls.Add(this.PokazKlientowButton);
+            this.Controls.Add(this.PokazZleceniabutton);
             this.Name = "Form1";
             this.Text = "Warsztat";
             this.ResumeLayout(false);
@@ -54,7 +90,11 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button PokazZleceniabutton;
+        private System.Windows.Forms.Button PokazKlientowButton;
         private System.Windows.Forms.Button PokazAutaButton;
+        private System.Windows.Forms.Button PokazMechanikowButton;
     }
 }
 

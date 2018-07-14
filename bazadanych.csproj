@@ -69,6 +69,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KlienciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KlienciForm.Designer.cs">
+      <DependentUpon>KlienciForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MechanicyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MechanicyForm.Designer.cs">
+      <DependentUpon>MechanicyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\201806111331193_InitialMigration.cs" />
     <Compile Include="Migrations\201806111331193_InitialMigration.Designer.cs">
       <DependentUpon>201806111331193_InitialMigration.cs</DependentUpon>
@@ -91,25 +103,64 @@
     <Compile Include="Model\PotrzebnaCzesc.cs" />
     <Compile Include="Model\WarsztatContext.cs" />
     <Compile Include="Model\Zlecenia.cs" />
+    <Compile Include="NoweZlecenieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoweZlecenieForm.Designer.cs">
+      <DependentUpon>NoweZlecenieForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="NoweAutoForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NoweAutoForm.Designer.cs">
       <DependentUpon>NoweAutoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="NowyKlientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NowyKlientForm.Designer.cs">
+      <DependentUpon>NowyKlientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NowyMechanikForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NowyMechanikForm.Designer.cs">
+      <DependentUpon>NowyMechanikForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZleceniaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZleceniaForm.Designer.cs">
+      <DependentUpon>ZleceniaForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AutaForm.resx">
       <DependentUpon>AutaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KlienciForm.resx">
+      <DependentUpon>KlienciForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MechanicyForm.resx">
+      <DependentUpon>MechanicyForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806111331193_InitialMigration.resx">
       <DependentUpon>201806111331193_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NoweZlecenieForm.resx">
+      <DependentUpon>NoweZlecenieForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NoweAutoForm.resx">
       <DependentUpon>NoweAutoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NowyKlientForm.resx">
+      <DependentUpon>NowyKlientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NowyMechanikForm.resx">
+      <DependentUpon>NowyMechanikForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -120,6 +171,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ZleceniaForm.resx">
+      <DependentUpon>ZleceniaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
